@@ -21,10 +21,21 @@
     text-align: center;
 }
 
+.company-link {
+    cursor: pointer;
+    transition: 0.1s all;
+}
+
+.company-link:hover {
+    color: #00A5CF!important;
+}
+
 .skill-pill {
     color: #D7FFAB;
     text-transform: uppercase;
     border: 1px solid #D7FFAB;
     letter-spacing: 3px;
     font-size: 0.5rem;
+
+    pointer-events: none;
 }

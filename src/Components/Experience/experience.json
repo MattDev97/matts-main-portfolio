@@ -17,7 +17,8 @@
             "CSS",
             "Lightning Web Components",
             "Salesforce Apex Development"
-        ]
+        ],
+        "link" : "https://www.avionos.com/"
     },
     {
         "id": 2,
@@ -38,7 +39,8 @@
             "CSS",
             "Lightning Web Components",
             "Salesforce Apex Development"
-        ]
+        ],
+        "link" : "https://www.accenture.com/us-en/industries/afs-index"
     },
     {
         "id": 3,
@@ -67,6 +69,7 @@
             "CSS",
             "Lightning Web Components",
             "Salesforce Apex Development"
-        ]
+        ],
+        "link" : "https://www.linkedin.com/company/acumen-solutions/"
     }
 ]
