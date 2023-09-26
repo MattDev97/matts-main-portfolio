@@ -3,18 +3,21 @@
         "title" : "Chess Clone in Vanilla JS",
         "description" : "A fully functional chess clone made in vanilla javascript.  Even has a bot.  I hate myself.",
         "skills" : ["HTML5", "CSS3", "Javascript"],
-        "link" : "https://github.com"
+        "githubLink" : "https://github.com/MattDev97/Chess-Clone-Vanilla-JS",
+        "liveLink" : "https://github.com"
     },
     {
         "title" : "Dictionary Web App",
         "description" : "A web app that allows you to search for words and get their definitions.  Uses the Merriam-Webster API.",
         "skills" : [ "React" ],
-        "link" : "https://github.com"
+        "githubLink" : "https://github.com/MattDev97/fem-dictionary-web-app",
+        "liveLink" : "https://github.com"
     },
     {
         "title" : "Tic Tac Toe",
         "description" : "You can play tic tac toe!",
         "skills" : [ "React" ],
-        "link" : "https://github.com"
+        "githubLink" : "https://github.com",
+        "liveLink" : "https://github.com"
     }
 ]

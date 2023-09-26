@@ -22,7 +22,7 @@ function ProjectTile(props) {
         >
             <div data-active={active} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className={"project-tile sample-grad-" + props.selfIndex} >
                 <div className="project-tile__content px-2 pt-1 pb-1" >
-                    <div className="external-link">
+                    <a href={props.project.liveLink} className="external-link" target="_blank">
                         <div className="project-tile__content__title flex justify-between">
                             <div  className="external-link_text font-semibold">
                                 {props.project.title}
@@ -35,7 +35,7 @@ function ProjectTile(props) {
                         <div className="project-tile__content__description font-light text-sm">
                             {props.project.description}
                         </div>
-                    </div>
+                    </a>
                     
                     <div className="project-tile__content__footer flex justify-between">
                         <div className="flex skills">
@@ -46,12 +46,15 @@ function ProjectTile(props) {
                                 })
                             }
                         </div>
-                        <div className="flex github-link">
-                            <i class="lab la-github m-auto"></i>
-                            <div className="github-link_text m-auto text-xs">
-                                Github
+                        <a href={props.project.githubLink} target="_blank">
+                            <div className="flex github-link">
+                                <i class="lab la-github m-auto"></i>
+                                <div className="github-link_text m-auto text-xs">
+                                    Github
+                                </div>
                             </div>
-                        </div>
+                        </a>
+                        
                         
                     </div>
                 </div>
