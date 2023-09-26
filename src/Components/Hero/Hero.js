@@ -6,13 +6,13 @@ function Hero() {
         <div className="container md:mt-20 mt-2">
             <div className="m-auto">
                 <img src={FlatFaceLogo} alt="Flat Face Logo" className="w-32 m-auto"></img>
-                <div className="mt-5 md:text-6xl text-4xl md:font-normal font-bold text-center">
+                <div className="mt-5 text-6xl font-bold text-center">
                     Hi, I'm <span style={{ color: '#ADFFD2'}}>Matt</span>
                 </div>
-                <div className="font-extralight text-1xl text-center">
+                <div className="font-extralight md:text-1xl text-2xl text-center">
                     A Front-End Developer based in Cleveland, OH
                 </div>
-                <div className="mt-48 flex">
+                <div className="md:mt-48  mt-72 flex">
                     <div className="mx-auto flex gap-3">
                         <a href="https://github.com/MattDev97" target="_blank">
                             <i class="social-icon lab la-github la-2x"></i>

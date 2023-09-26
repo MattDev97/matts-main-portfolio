@@ -16,7 +16,6 @@ function App() {
 		<div className="font-nunitosans text-white mx-auto min-h-screen max-w-screen-xl px-6 py-12 md:px-12 md:py-20 lg:px-16 lg:py-0">
 			<BackgroundGradientFollow />
 			<div className="mb-44">
-				
 				<Hero></Hero>
 			</div>
 			<div className="mb-44">
