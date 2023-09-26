@@ -32,7 +32,7 @@ function ProjectTile(props) {
                             </div>
                             
                         </div>
-                        <div className="project-tile__content__description font-light text-xs">
+                        <div className="project-tile__content__description font-light text-sm md:text-xs">
                             {props.project.description}
                         </div>
                     </a>

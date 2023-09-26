@@ -32,7 +32,7 @@ function JobCard(props) {
                 <h2 className="text-lg font-bold text-center md:text-left">{props.job.title}</h2>
                 {
                     props.job.description.map((item) => {
-                        return <p dangerouslySetInnerHTML={{ __html: JSON.stringify(item).replace('"', '').replace('"', '') }} className="description mt-2 md:text-justify text-center"></p>
+                        return <p dangerouslySetInnerHTML={{ __html: JSON.stringify(item).replace('"', '').replace('"', '') }} className="description mt-2 md:text-justify text-center md:text-sm text-md"></p>
                     })
                 }
                 <ul className="mt-2 flex flex-wrap">
