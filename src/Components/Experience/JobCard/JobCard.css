@@ -16,6 +16,10 @@
     font-size: 0.5rem!important;
 }
 
+.description b {
+    font-weight: 900;
+}
+
 .date-labels {
     width: 100px;
     text-align: center;
@@ -39,3 +43,4 @@
 
     pointer-events: none;
 }
+

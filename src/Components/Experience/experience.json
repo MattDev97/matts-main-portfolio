@@ -8,8 +8,9 @@
         "startDate": "MAR 2022", 
         "endDate": "Present",
         "description": [
-            "Avionos is a digital consulting and solutions firm focused on the Connected Customer. We help companies create seamless, integrated experiences that result in enhanced customer relationships and increased loyalty. We deliver web, mobile and cross-platform solutions that work in concert with connected devices. Our expertise is in Marketing, Sales, and CRM.",
-            "Adapted UX designs into a functional and branded front-end tenant portal platform using Salesforce Experience Cloud and modern web development practices."
+            "<b>Constructed</b> a compendium of reusable UI components using JavaScript, HTML, and CSS; standardized frontend development practices, resulting in faster project turnarounds and consistent user interfaces.",
+            "<b>Transformed</b> UX designs into a functional, branded front-end portal on Salesforce Experience Cloud using modern web development practices; enhanced user experience and brand consistency across the platform.",
+            "<b>Managed and mentored</b> junior developers through pull request reviews, onboarding documentation, and detailed technical designs; improved code quality and accelerated the onboarding process for new team members."
         ],
         "skills": [
             "Javascript",
@@ -29,8 +30,9 @@
         "startDate": "AUG 2021",
         "endDate": "MAR 2022",
         "description": [
-            "Managed a team of developers by mentoring junior resources and enforcing best practices within the Salesforce platform.",
-            "Revitalized legacy client software by building a high quality Salesforce solution to improve the client's outreach to potential volunteers."
+            "<b>Led backend development</b> for a Salesforce Experience Cloud website aimed at streamlining volunteer management; designed system architecture, page layouts, and user flows, resulting in a more efficient interaction between volunteers and managers.",
+            "<b>Mentored junior developers</b> and conducted knowledge sessions; elevated team skills and ensured best practices in development workflows.",
+            "<b>Implemented</b> a robust DevOps solution using Microsoft Azure; enhanced deployment speed and system reliability, streamlining the software development lifecycle."
         ],
         "skills": [
             "Azure DevOps Services",
@@ -46,29 +48,26 @@
         "id": 3,
         "image": "https://media.licdn.com/dms/image/C4D0BAQHX8aSghBvCtg/company-logo_100_100/0/1612214249947?e=1703116800&v=beta&t=haDjozZm-9ELhmWbJlk5iiTl6kZKVYWm7yh0Vd90x0w",
         "companyName": "Acumen, A Salesforce Company",
-        "title": "Technical Consultant",
+        "title": "Technical Consultant II",
         "location": "Cleveland, OH",
         "startDate": "MAY 2019",
         "endDate": "JULY 2021",
         "description": [
-            "Contracted at Fortune 500 company specializing in Front-End Development and Component-based frameworks.",
-            "Developed a responsive UI providing image upload functionality for mobile application.",
-            "Built modular Lightning Web Components for a new document editing tool that replaced an existing business flow.",
-            "Involved in numerous internal projects that utilized ReactJS, Angular, and NodeJS.",
-            "Enhanced legacy financial reconciliation system by improving accuracy of data points on UI and adding support for new user scenarios"
+            "<b>Led UI development</b> for an employee-facing mobile app using Ionic and Angular, streamlining order tracking and boosting product search capabilities.",
+            "<b>Lead Developer</b> on an Angular Ionic app for client employees, mentored a junior developer, and increased Jasmine test code coverage to >90%; improved workplace safety through real-time hazard reporting features.",
+            "<b>Managed backend maintenance</b> for a Salesforce invoicing application, visualized complex Apex logic, and enhanced system stability; provided clearer insights for future teams and clients",
+            "<b>Participated</b> in a specialized UI/UX team, developing modular, reusable UI components for Salesforce Experience Cloud, maintained high Jest code coverage; expedited feature development for other teams while ensuring UI consistency.",
+            "<b>Involved</b> in numerous internal projects, developed and maintained several applications using Angular and React; increased productivity for internal employees."
         ],
         "skills": [
             "ReactJS",
-            "AWS",
+            "Salesforce",
             "NodeJS",
-            "UX",
-            "Python",
             "Angular",
             "Javascript",
             "HTML",
             "CSS",
-            "Lightning Web Components",
-            "Salesforce Apex Development"
+            "Lightning Web Components"
         ],
         "link" : "https://www.linkedin.com/company/acumen-solutions/"
     }
