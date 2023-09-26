@@ -9,4 +9,6 @@
     align-items: center;
 
     z-index: 99;
+
+    pointer-events: none;
 }

@@ -5,7 +5,7 @@
         "companyName": "Avionos, A Hero Digital Company",
         "title": "Senior Software Engineer",
         "location": "Chicago, IL",
-        "startDate": "03-07-2022", 
+        "startDate": "MAR 2022", 
         "endDate": "Present",
         "description": [
             "Avionos is a digital consulting and solutions firm focused on the Connected Customer. We help companies create seamless, integrated experiences that result in enhanced customer relationships and increased loyalty. We deliver web, mobile and cross-platform solutions that work in concert with connected devices. Our expertise is in Marketing, Sales, and CRM.",
@@ -25,8 +25,8 @@
         "companyName": "Accenture Federal Services",
         "title": "Senior Software Engineer",
         "location": "Cleveland, OH",
-        "startDate": "2021-08-01",
-        "endDate": "2022-03-07",
+        "startDate": "AUG 2021",
+        "endDate": "MAR 2022",
         "description": [
             "Managed a team of developers by mentoring junior resources and enforcing best practices within the Salesforce platform.",
             "Revitalized legacy client software by building a high quality Salesforce solution to improve the client's outreach to potential volunteers."
@@ -46,8 +46,8 @@
         "companyName": "Acumen, A Salesforce Company",
         "title": "Technical Consultant",
         "location": "Cleveland, OH",
-        "startDate": "2019-05-28",
-        "endDate": "2021-07-28",
+        "startDate": "MAY 2019",
+        "endDate": "JULY 2021",
         "description": [
             "Contracted at Fortune 500 company specializing in Front-End Development and Component-based frameworks.",
             "Developed a responsive UI providing image upload functionality for mobile application.",

@@ -18,6 +18,10 @@ module.exports = {
         'primary': '#3490dc',
         'secondary': '#E6F4F1',
       },
+      fontFamily: {
+        'montserrat': ['Montserrat', 'sans-serif'],
+        'nunitosans': [' Nunito Sans', 'sans-serif'],
+      }
     },
   },
   variants: {

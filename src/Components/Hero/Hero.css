@@ -1,0 +1,15 @@
+img {
+    z-index: 99;
+}
+
+.social-icon {
+    cursor: pointer;
+
+    transition: all 0.3s;
+}
+
+.social-icon:hover {
+    color: #D7FFAB;
+
+    transform: scale(1.05);
+}

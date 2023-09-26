@@ -1,0 +1,30 @@
+.job-card__rect {
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.job-card__rect img {
+    border: 5px solid white;
+}
+
+.job-rect__wrapper {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.5rem!important;
+}
+
+.date-labels {
+    width: 100px;
+    text-align: center;
+}
+
+.skill-pill {
+    color: #ADFFD2;
+    text-transform: uppercase;
+    border: 1px solid #ADFFD2;
+    letter-spacing: 3px;
+    font-size: 0.5rem;
+}
