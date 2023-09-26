@@ -5,7 +5,7 @@ function Hero() {
     return (
         <div className="container md:mt-20 mt-2">
             <div className="m-auto">
-                <img src={FlatFaceLogo} alt="Flat Face Logo" className="md:w-32 w-36 m-auto"></img>
+                <img src={FlatFaceLogo} alt="Flat Face Logo" className="md:w-32 w-44 m-auto"></img>
                 <div className="mt-5 text-6xl font-bold text-center">
                     Hi, I'm <span style={{ color: '#ADFFD2'}}>Matt</span>
                 </div>
