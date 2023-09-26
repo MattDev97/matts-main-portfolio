@@ -1,6 +1,6 @@
 [
     {
-        "title" : "Chess Clone in Vanilla JS",
+        "title" : "Chess Clone",
         "description" : "A fully functional chess clone made in vanilla javascript.  Even has a bot.  I hate myself.",
         "skills" : ["HTML5", "CSS3", "Javascript"],
         "githubLink" : "https://github.com/MattDev97/Chess-Clone-Vanilla-JS",

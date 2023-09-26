@@ -13,11 +13,9 @@
             "<b>Managed and mentored</b> junior developers through pull request reviews, onboarding documentation, and detailed technical designs; improved code quality and accelerated the onboarding process for new team members."
         ],
         "skills": [
-            "Javascript",
-            "HTML",
-            "CSS",
             "Lightning Web Components",
-            "Salesforce Apex Development"
+            "Salesforce Apex Development",
+            "Bitbucket Pipelines"
         ],
         "link" : "https://www.avionos.com/"
     },
@@ -36,11 +34,8 @@
         ],
         "skills": [
             "Azure DevOps Services",
-            "Javascript",
-            "HTML",
-            "CSS",
             "Lightning Web Components",
-            "Salesforce Apex Development"
+            "SF Experience Cloud"
         ],
         "link" : "https://www.accenture.com/us-en/industries/afs-index"
     },
@@ -64,9 +59,6 @@
             "Salesforce",
             "NodeJS",
             "Angular",
-            "Javascript",
-            "HTML",
-            "CSS",
             "Lightning Web Components"
         ],
         "link" : "https://www.linkedin.com/company/acumen-solutions/"

@@ -35,11 +35,11 @@ function JobCard(props) {
                         return <p dangerouslySetInnerHTML={{ __html: JSON.stringify(item).replace('"', '').replace('"', '') }} className="description mt-2 md:text-justify text-center md:text-sm text-md"></p>
                     })
                 }
-                <ul className="mt-2 flex flex-wrap">
+                <ul className="mt-2 flex flex-wrap md:justify-start justify-evenly">
                     {
                         props.job.skills.map((item) => {
                             return (
-                                <li className="md:mr-1.5 mt-2 md:ml-0 m-auto">
+                                <li className="md:mr-1.5 mt-2 md:ml-0 text-center">
                                     <div className="skill-pill flex items-center rounded-full px-3 py-1 font-extrabold">
                                         {item}
                                     </div>
