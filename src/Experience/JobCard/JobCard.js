@@ -1,9 +1,12 @@
+import FormattedDate from './FormattedDate';
+
 function JobCard(props) {
+    
     console.dir(props);
     return (
         <div className="flex font-light">
             <div className="flex w-1/3">
-                {<span>{props.job.startDate} - {props.job.endDate}</span>}
+                <FormattedDate start={props.job.startDate} end={props.job.endDate}></FormattedDate>
             </div>
             <div className="w-2/3">
                 <h2 className="text-lg">{props.job.title}</h2>
