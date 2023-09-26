@@ -1,7 +1,7 @@
 function JobCard(props) {
     console.dir(props);
     return (
-        <div className="flex">
+        <div className="flex font-light">
             <div className="flex w-1/3">
                 {<span>{props.job.startDate} - {props.job.endDate}</span>}
             </div>
