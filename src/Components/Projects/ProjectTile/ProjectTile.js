@@ -17,7 +17,7 @@ function ProjectTile(props) {
     return (
         <Tilt 
             className="Tilt" 
-            options={{ max: 10, speed: 900, scale: 1.01, perspective: 1000, reset: true }} 
+            options={{ max: 10, speed: 100, scale: 1.01, reset: true }} 
             style={{ height: '100%', width: '100%' }}
         >
             <div data-active={active} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className={"project-tile sample-grad-" + props.selfIndex} >
