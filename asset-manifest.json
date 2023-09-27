@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/matts-main-portfolio/static/css/main.0fb672c2.css",
-    "main.js": "/matts-main-portfolio/static/js/main.dbeba9fb.js",
+    "main.css": "/matts-main-portfolio/static/css/main.9e2003be.css",
+    "main.js": "/matts-main-portfolio/static/js/main.8a214067.js",
     "static/js/787.1ed13f5b.chunk.js": "/matts-main-portfolio/static/js/787.1ed13f5b.chunk.js",
     "static/media/montserrat-latin-700italic.woff": "/matts-main-portfolio/static/media/montserrat-latin-700italic.6779372f04095051c62e.woff",
     "static/media/montserrat-latin-800italic.woff": "/matts-main-portfolio/static/media/montserrat-latin-800italic.fe82abb0bcede51bf724.woff",
@@ -42,12 +42,12 @@
     "static/media/FlatFaceLogo.svg": "/matts-main-portfolio/static/media/FlatFaceLogo.05ca16fa8137e2e3a9705272ecd6a607.svg",
     "static/media/logo.svg": "/matts-main-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/matts-main-portfolio/index.html",
-    "main.0fb672c2.css.map": "/matts-main-portfolio/static/css/main.0fb672c2.css.map",
-    "main.dbeba9fb.js.map": "/matts-main-portfolio/static/js/main.dbeba9fb.js.map",
+    "main.9e2003be.css.map": "/matts-main-portfolio/static/css/main.9e2003be.css.map",
+    "main.8a214067.js.map": "/matts-main-portfolio/static/js/main.8a214067.js.map",
     "787.1ed13f5b.chunk.js.map": "/matts-main-portfolio/static/js/787.1ed13f5b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0fb672c2.css",
-    "static/js/main.dbeba9fb.js"
+    "static/css/main.9e2003be.css",
+    "static/js/main.8a214067.js"
   ]
 }
