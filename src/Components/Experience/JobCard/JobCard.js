@@ -24,12 +24,12 @@ function JobCard(props) {
                 
             </div>
             <div className="md:w-5/6">
-                <a className="flex company-link m-auto md:m-0 md:justify-start justify-center" href={props.job.link} target="_blank">
+                <a className="flex company-link mx-auto md:m-0 md:justify-start justify-center" href={props.job.link} target="_blank">
                     <h4 className="md:text-left text-3xl text-center">{props.job.companyName}</h4>
                     <i class="ml-1 flex my-auto las la-external-link-square-alt la-1x"></i>
                 </a>
                 
-                <h2 className="text-2xl font-bold text-center md:text-left">{props.job.title}</h2>
+                <h2 className="text-2xl font-bold text-center md:text-left mb-6">{props.job.title}</h2>
                 {
                     props.job.description.map((item) => {
                         return <p 
