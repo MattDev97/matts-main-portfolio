@@ -27,7 +27,7 @@ function ProjectTile(props) {
                     
                     <a href={props.project.liveLink} className="external-link" target="_blank">
                         <div className="project-tile__content__title flex justify-between">
-                            <div className="external-link_text font-semibold text-md md:text-lg font-bold text-white">
+                            <div className="external-link_text font-semibold text-sm md:text-md font-bold text-white">
                                 {props.project.title}
                             </div>
                             <div className="external-link_icon flex">
