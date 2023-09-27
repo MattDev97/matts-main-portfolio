@@ -39,9 +39,10 @@
 
 .project-tile__content__description {
     overflow: hidden;
-    transition: 0.2s all;
+    transition: 0.3s all;
 
-    height: 100px;
+    height: fit-content;
+    max-height: 100px;
 
     cursor: pointer;
 }
@@ -71,7 +72,7 @@
 }
 
 [data-active="false"] .project-tile__content__description {
-    height: 0;
+    max-height: 0;
 }
 
 .project-tile__content__footer .lab {
