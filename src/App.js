@@ -22,11 +22,11 @@ function App() {
 				<About></About>
 			</div>
 			<div className="mb-44">
-				<h1 className="text-3xl font-bold text-center mb-4 md:mb-12">Experience</h1>
+				<h1 className="text-5xl font-bold text-center mb-4 md:mb-12">Experience</h1>
 				<Experience></Experience>
 			</div>
 			<div className="mb-44">
-				<h1 className="text-3xl font-bold text-center mb-11 md:mb-12">Projects</h1>
+				<h1 className="text-5xl font-bold text-center mb-11 md:mb-12">Projects</h1>
 				<Projects></Projects>
 			</div>
 		</div>

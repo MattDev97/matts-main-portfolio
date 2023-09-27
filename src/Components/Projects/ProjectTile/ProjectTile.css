@@ -41,14 +41,14 @@
     cursor: pointer;
 }
 
-.project-tile__content__footer .lab {
+/* .project-tile__content__footer .lab {
     font-size: 1.5rem
-}
+} */
 
 .external-link_text {
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 0.7rem!important;
+    /* font-size: 0.7rem!important; */
 }
 
 /* .external-link_icon {

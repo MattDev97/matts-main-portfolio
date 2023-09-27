@@ -24,15 +24,15 @@ function ProjectTile(props) {
                 <div className="project-tile__content px-2 pt-1 pb-1" >
                     <a href={props.project.liveLink} className="external-link" target="_blank">
                         <div className="project-tile__content__title flex justify-between">
-                            <div className="external-link_text font-semibold">
+                            <div className="external-link_text font-semibold text-lg font-bold">
                                 {props.project.title}
                             </div>
                             <div className="external-link_icon flex">
-                                <i class="las la-external-link-square-alt la-1x"></i>
+                                <i class="las la-external-link-square-alt la-2x"></i>
                             </div>
                             
                         </div>
-                        <div className="project-tile__content__description font-light text-sm md:text-xs">
+                        <div className="project-tile__content__description font-light text-lg">
                             {props.project.description}
                         </div>
                     </a>
@@ -48,8 +48,8 @@ function ProjectTile(props) {
                         </div>
                         <a href={props.project.githubLink} target="_blank">
                             <div className="flex github-link">
-                                <i class="lab la-github m-auto"></i>
-                                <div className="github-link_text m-auto text-xs">
+                                <i class="lab la-github m-auto la-2x"></i>
+                                <div className="github-link_text m-auto text-md">
                                     Github
                                 </div>
                             </div>
@@ -67,13 +67,13 @@ function ProjectTile(props) {
 const getBrandIcon = (brand) => {
     switch(brand) {
         case 'HTML5':
-            return "lab la-html5 m-auto";
+            return "lab la-html5 m-auto la-2x";
         case 'CSS3':
-            return "lab la-css3-alt m-auto";
+            return "lab la-css3-alt m-auto la-2x";
         case 'Javascript':
-            return "lab la-js-square m-auto";
+            return "lab la-js-square m-auto la-2x";
         case 'React':
-            return "lab la-react m-auto";
+            return "lab la-react m-auto la-2x";
         default:
             return '';
     }

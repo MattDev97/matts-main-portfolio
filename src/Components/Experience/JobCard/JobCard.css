@@ -13,7 +13,7 @@
 .job-rect__wrapper {
     text-transform: uppercase;
     letter-spacing: 2px;
-    font-size: 0.5rem!important;
+    /* font-size: 0.5rem!important; */
 }
 
 .description b {
@@ -39,7 +39,6 @@
     text-transform: uppercase;
     border: 1px solid #D7FFAB;
     letter-spacing: 3px;
-    font-size: 0.6rem;
 
     pointer-events: none;
 }
