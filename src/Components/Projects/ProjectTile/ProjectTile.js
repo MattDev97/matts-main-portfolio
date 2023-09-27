@@ -2,6 +2,7 @@ import './ProjectTile.css';
 import { Tilt } from 'react-tilt';
 
 import { useState } from "react";
+import ProjectImagesExport from '../../../Assets/ProjectImages/ProjectImagesExport';
 
 function ProjectTile(props) {
     const [active, setActive] = useState(false);
@@ -20,19 +21,21 @@ function ProjectTile(props) {
             options={{ max: 10, speed: 100, scale: 1.01, reset: true }} 
             style={{ height: '100%', width: '100%' }}
         >
-            <div data-active={active} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className={"project-tile sample-grad-" + props.selfIndex} >
-                <div className="project-tile__content px-2 pt-1 pb-1" >
+            <div data-active={active} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className={"project-tile "} >
+                <img src={ProjectImagesExport[props.project.image]}></img>
+                <div className="project-tile__content px-2 pt-1 pb-1">
+                    
                     <a href={props.project.liveLink} className="external-link" target="_blank">
                         <div className="project-tile__content__title flex justify-between">
-                            <div className="external-link_text font-semibold text-lg font-bold">
+                            <div className="external-link_text font-semibold text-lg font-bold text-white">
                                 {props.project.title}
                             </div>
                             <div className="external-link_icon flex">
-                                <i class="las la-external-link-square-alt la-2x"></i>
+                                <i class="las la-external-link-square-alt la-2x text-white"></i>
                             </div>
                             
                         </div>
-                        <div className="project-tile__content__description font-light text-lg">
+                        <div className="project-tile__content__description font-light text-md  text-white">
                             {props.project.description}
                         </div>
                     </a>
@@ -48,8 +51,8 @@ function ProjectTile(props) {
                         </div>
                         <a href={props.project.githubLink} target="_blank">
                             <div className="flex github-link">
-                                <i class="lab la-github m-auto la-2x"></i>
-                                <div className="github-link_text m-auto text-md">
+                                <i class="lab la-github m-auto la-2x text-white"></i>
+                                <div className="github-link_text m-auto text-m">
                                     Github
                                 </div>
                             </div>
@@ -67,13 +70,13 @@ function ProjectTile(props) {
 const getBrandIcon = (brand) => {
     switch(brand) {
         case 'HTML5':
-            return "lab la-html5 m-auto la-2x";
+            return "lab la-html5 m-auto la-2x text-white";
         case 'CSS3':
-            return "lab la-css3-alt m-auto la-2x";
+            return "lab la-css3-alt m-auto la-2x text-white";
         case 'Javascript':
-            return "lab la-js-square m-auto la-2x";
+            return "lab la-js-square m-auto la-2x text-white";
         case 'React':
-            return "lab la-react m-auto la-2x";
+            return "lab la-react m-auto la-2x text-white";
         default:
             return '';
     }

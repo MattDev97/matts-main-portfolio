@@ -1,5 +1,5 @@
 .project-tile {
-    height: 250px;
+    height: 300px;
     width: 100%;
     border-radius: 8px;
     position: relative;
@@ -13,9 +13,13 @@
     color: #000428;
     overflow: hidden;
 
-    background-color: rgba(255, 255, 255, 0.342);
+    /* background-color: #adffd28d; */
+    background: rgb(0,4,40);
+    background: linear-gradient(90deg, rgba(0,4,40,0.95) 14%, rgba(0,78,146,0.95) 100%);
+
     width: 100%;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
 }
 
 .external-link {
@@ -28,8 +32,9 @@
     transition: 0.3s all;
 }
 
-.external-link:hover .project-tile__content__title {
-    color: #00A5CF!important;
+.external-link:hover {
+    color: #ADFFD2!important;
+    
 }
 
 .project-tile__content__description {
@@ -61,7 +66,8 @@
 [data-active="false"] .project-tile__content {
     bottom: 0;
 
-    background-color: rgba(255, 255, 255, 0);
+    /* background-color: rgba(255, 255, 255, 0); */
+    /* backdrop-filter: blur(0); */
 }
 
 [data-active="false"] .project-tile__content__description {

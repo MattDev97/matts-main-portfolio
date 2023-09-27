@@ -8,6 +8,7 @@ import Experience from './Components/Experience/Experience';
 import BackgroundGradientFollow from './Utilities/BackgroundGradientFollow';
 import Hero from './Components/Hero/Hero';
 import Projects from './Components/Projects/Projects';
+import Contact from './Components/Contact/Contact';
 
 
 function App() {
@@ -28,6 +29,10 @@ function App() {
 			<div className="mb-44">
 				<h1 className="text-5xl font-bold text-center mb-12">Projects</h1>
 				<Projects></Projects>
+			</div>
+			<div className="mb-44">
+				<h1 className="text-5xl font-bold text-center mb-12">Contact Me!</h1>
+				<Contact></Contact>
 			</div>
 		</div>
 		

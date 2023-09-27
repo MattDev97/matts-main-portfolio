@@ -2,8 +2,6 @@ import FormattedDate from '../../../Utilities/FormattedDate';
 import './JobCard.css';
 
 function JobCard(props) {
-    
-    console.dir(props);
     return (
         <div className="flex flex-wrap font-light">
             <div className="font-extrabold job-rect__wrapper md:w-1/6 mt-1 md:mb-0 mb-5 md:mx-0 mx-auto">
