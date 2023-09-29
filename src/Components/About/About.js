@@ -1,6 +1,6 @@
 function About() {
 	return (
-		<div className="font-light md:mx-36 mt-44 text-center text-3xl">
+		<div className="font-light md:mx-36 mt-44 text-center md:text-3xl">
 			<p className="mb-4">
 			Hello! I'm Matthew Muenzberg, a front-end developer from the city of Cleveland, Ohio. 
 			With over five years in the field, I've teamed up with various consultancies to bring top-notch web 
