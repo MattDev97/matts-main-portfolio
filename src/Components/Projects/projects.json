@@ -1,7 +1,7 @@
 [
     {
         "title" : "Chess Clone",
-        "description" : "A fully functional chess clone made in vanilla javascript.  Even has a bot.  I hate myself.",
+        "description" : "A semi-functional chess clone made in vanilla javascript.  I hate myself.",
         "skills" : ["HTML5", "CSS3", "Javascript"],
         "githubLink" : "https://github.com/MattDev97/Chess-Clone-Vanilla-JS",
         "liveLink" : "https://github.com",
@@ -12,7 +12,7 @@
         "description" : "A web app that allows you to search for words and get their definitions.  Uses the Merriam-Webster API.",
         "skills" : [ "React" ],
         "githubLink" : "https://github.com/MattDev97/fem-dictionary-web-app",
-        "liveLink" : "https://github.com",
+        "liveLink" : "https://mattdev97.github.io/fem-dictionary-web-app/",
         "image" : "DictionaryWebApp"
     },
     {
