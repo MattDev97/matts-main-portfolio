@@ -4,7 +4,7 @@
         "description" : "A semi-functional chess clone made in vanilla javascript.  I hate myself.",
         "skills" : ["HTML5", "CSS3", "Javascript"],
         "githubLink" : "https://github.com/MattDev97/Chess-Clone-Vanilla-JS",
-        "liveLink" : "https://github.com",
+        "liveLink" : "https://mattdev97.github.io/Chess-Clone-Vanilla-JS/",
         "image" : "ChessClone"
     },
     {
